@@ -1,0 +1,28 @@
+# Dependencies
+node_modules/
+
+# Environment variables
+.env
+
+# Docker
+docker-compose.override.yml
+
+# Logs
+*.log
+monitoring/prometheus/data/
+monitoring/grafana/data/
+monitoring/loki/data/
+monitoring/promtail/data/
+portainer_data/
+wp_data/
+db_data/
+phpipam_data/
+
+# Archives
+*.tar
+*.zip
+*.gz
+
+# OS
+.DS_Store
+Thumbs.db
