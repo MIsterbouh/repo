@@ -26,3 +26,4 @@ phpipam_data/
 # OS
 .DS_Store
 Thumbs.db
+install_debian.sh
